@@ -1,0 +1,30 @@
+{
+  "name": "mube",
+  "version": "1.0.0",
+  "description": "MU backend",
+  "main": "server.js",
+  "repository": "git@github.com:maciejken/mube.git",
+  "author": "Maciej Kędra",
+  "license": "MIT",
+  "private": null,
+  "dependencies": {
+    "compression": "^1.7.3",
+    "consign": "^0.1.6",
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
+    "errorhandler": "^1.5.0",
+    "express": "^4.16.3",
+    "helmet": "^3.13.0",
+    "method-override": "^3.0.0",
+    "mongodb": "^3.1.1",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.18.3",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "response-time": "^2.3.2",
+    "winston": "^3.0.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
